@@ -39,12 +39,10 @@ class PropertyController extends AbstractController
 
     /**
      * @Route("/biens/{id}", name="app_property.show" )
-     * @param $slug
      * @param $id
      * @return Response
      */
-    public function show($id):Response{
-        $property = $this->repository->find($id);
+    public function show(Property $property):Response{
 
         return $this->render('property/show.html.twig',[
             'property'=> $property,
