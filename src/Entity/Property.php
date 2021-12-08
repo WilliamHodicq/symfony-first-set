@@ -94,6 +94,7 @@ class Property
      */
     private $created_at;
 
+
     public function  __construct()
     {
         $this->created_at = new \DateTimeImmutable();
@@ -270,4 +271,5 @@ class Property
 
         return $this;
     }
+
 }
