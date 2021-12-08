@@ -4,7 +4,16 @@
     <div class="jumbotron text-center">
         <div class="container">
             <h1 class="my-4">Voir tous nos biens</h1>
-
+            <div class="row">
+                {% for property in properties %}
+                    <div class="col-md-4">
+                        {% include 'property/_property.html.twig' %}
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="pagination">
+                {{ knp_pagination_render(properties) }}
+            </div>
         </div>
     </div>
 {%  endblock %}
