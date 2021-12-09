@@ -12,3 +12,5 @@ Surface: Surface
 Description: Description
 Gaz: Gaz
 Electrique: Electrique
+maxPrice: Budget max
+minSurface: Surface minimale
