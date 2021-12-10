@@ -1,9 +1,51 @@
 {
+    "amphp/amp": {
+        "version": "v2.6.1"
+    },
+    "amphp/byte-stream": {
+        "version": "v1.8.1"
+    },
+    "amphp/cache": {
+        "version": "v1.5.0"
+    },
+    "amphp/dns": {
+        "version": "v1.2.3"
+    },
+    "amphp/hpack": {
+        "version": "v3.1.1"
+    },
+    "amphp/http": {
+        "version": "v1.6.3"
+    },
+    "amphp/http-client": {
+        "version": "v4.6.2"
+    },
+    "amphp/parser": {
+        "version": "v1.0.0"
+    },
+    "amphp/process": {
+        "version": "v1.1.2"
+    },
+    "amphp/serialization": {
+        "version": "v1.0.0"
+    },
+    "amphp/socket": {
+        "version": "v1.2.0"
+    },
+    "amphp/sync": {
+        "version": "v1.4.2"
+    },
+    "amphp/windows-registry": {
+        "version": "v0.3.3"
+    },
     "cocur/slugify": {
         "version": "v3.0"
     },
     "composer/package-versions-deprecated": {
         "version": "1.11.99.4"
+    },
+    "daverandom/libdns": {
+        "version": "v2.0.2"
     },
     "doctrine/annotations": {
         "version": "1.13",
@@ -109,6 +151,15 @@
     "fzaninotto/faker": {
         "version": "v1.9.2"
     },
+    "imagine/imagine": {
+        "version": "1.2.4"
+    },
+    "jms/metadata": {
+        "version": "2.6.1"
+    },
+    "kelunik/certificate": {
+        "version": "v1.1.2"
+    },
     "knplabs/knp-components": {
         "version": "v3.4.0"
     },
@@ -117,6 +168,28 @@
     },
     "laminas/laminas-code": {
         "version": "4.4.3"
+    },
+    "league/uri": {
+        "version": "6.5.0"
+    },
+    "league/uri-interfaces": {
+        "version": "2.3.0"
+    },
+    "league/uri-parser": {
+        "version": "1.4.1"
+    },
+    "liip/imagine-bundle": {
+        "version": "2.6",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.8",
+            "ref": "d1227d002b70d1a1f941d91845fcd7ac7fbfc929"
+        },
+        "files": [
+            "config/packages/liip_imagine.yaml",
+            "config/routes/liip_imagine.yaml"
+        ]
     },
     "monolog/monolog": {
         "version": "2.3.5"
@@ -144,6 +217,9 @@
     },
     "psr/event-dispatcher": {
         "version": "1.0.0"
+    },
+    "psr/http-message": {
+        "version": "1.0.1"
     },
     "psr/link": {
         "version": "1.0.0"
@@ -526,6 +602,18 @@
     },
     "twig/twig": {
         "version": "v3.3.4"
+    },
+    "vich/uploader-bundle": {
+        "version": "1.18",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.7",
+            "ref": "c4f5755b37fb65b9c6a3cbdae91205c15a137ed4"
+        },
+        "files": [
+            "config/packages/vich_uploader.yaml"
+        ]
     },
     "webmozart/assert": {
         "version": "1.10.0"

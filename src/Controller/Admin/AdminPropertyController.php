@@ -71,8 +71,6 @@ class AdminPropertyController extends AbstractController{
      */
     public function edit(Property $property,Request $request):Response{
 
-
-
         $form = $this->createForm(PropertyType::class,$property);
         $form->handleRequest($request);
 
